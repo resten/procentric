@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<XAIT>
+  <versionNumber>1332</versionNumber>
+  <AbstractService>
+    <svcName>GEM_Portal_20071108_V.03.042</svcName>
+    <svcId>0x2001</svcId>
+    <isAutoSelect>true</isAutoSelect>
+    <ApplicationList>
+      <Application>
+        <appName>GEM_Portal_20071108_V.03.042</appName>
+        <applicationIdentifier>
+          <orgId>1</orgId>
+          <appId>3</appId>
+        </applicationIdentifier>
+        <applicationDescriptor>
+          <type>Hcap-h</type>
+          <controlCode>AUTOSTART</controlCode>
+          <visibility>NOT_VISIBLE_USERS</visibility>
+          <priority>255</priority>
+          <version>1332</version>
+        </applicationDescriptor>
+        <HcapDescriptor>
+
+	<url>http://procentric.lge.com:4000/procentric/application/browserware/index.html</url>
+          <applicationStructure>
+            <baseDirectory>/</baseDirectory>
+            <classpathExtension>/</classpathExtension>
+            <initialClass>index.html</initialClass>
+          </applicationStructure>
+        </HcapDescriptor>
+      </Application>
+    </ApplicationList>
+  </AbstractService>
+</XAIT>
